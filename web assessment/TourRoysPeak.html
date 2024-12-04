@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <title>Travel NZ</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA Compatible" content="IE=edge">
+        <meta name="viewpoint" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="tourcss.css">
+        <link href="https://fonts.googleapis.com/css2?family=Lalezar&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+        <nav>
+        <ul>
+            <li><a href="Home.html"><img src="Logo.png" width="400px"></a></li>
+        </ul>
+    </nav>
+    </header>
+    <body>
+        <nav> 
+            <ul> 
+                <li><a href="Home.html">Home</a></li> 
+                <li><a href="Home.html#grid">Travel Destinations</a></li> 
+                <li><a href="Contact.html">Contact</a></li> 
+            </ul> 
+        </nav> <br>
+
+        <h3>Roy's Peak</h3>
+        <p class="p1">
+          Take in breathtaking views over Lake Wānaka, Mount Aspiring/Tititea and surrounding peaks after a steep climb through alpine meadows and tussock grasslands to the summit. This is a popular track and one of our best day hikes.</p>
+            <br>
+            <br>
+            <div class="grid-container">
+            <main class="main">
+              <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                  <img src="TourRoyspeak1.jpg">
+                </div>
+                
+                <div class="mySlides fade">
+                  <img src="TourRoyspeak2.jpg">
+                </div>
+                
+                <div class="mySlides fade">
+                  <img src="TourRoyspeak3.jpg">
+                </div>
+                
+                <div class="mySlides fade">
+                    <img src="TourRoyspeak4.jpg">
+                  </div>
+
+                <div class="mySlides fade">
+                  <img src="TourRoyspeak5.jpg">
+                </div>
+                  
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+                
+                </div>
+                <br>
+                
+                <div style="text-align:center">
+                  <span class="dot" onclick="currentSlide(1)"></span> 
+                  <span class="dot" onclick="currentSlide(2)"></span> 
+                  <span class="dot" onclick="currentSlide(3)"></span> 
+                  <span class="dot" onclick="currentSlide(4)"></span>
+                  <span class="dot" onclick="currentSlide(5)"></span>
+                </div>
+                <script>
+                    let slideIndex = 1;
+                    showSlides(slideIndex);
+                    
+                    function plusSlides(n) {
+                      showSlides(slideIndex += n);
+                    }
+                    
+                    function currentSlide(n) {
+                      showSlides(slideIndex = n);
+                    }
+                    
+                    function showSlides(n) {
+                      let i;
+                      let slides = document.getElementsByClassName("mySlides");
+                      let dots = document.getElementsByClassName("dot");
+                      if (n > slides.length) {slideIndex = 1}    
+                      if (n < 1) {slideIndex = slides.length}
+                      for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";  
+                      }
+                      for (i = 0; i < dots.length; i++) {
+                        dots[i].className = dots[i].className.replace(" active", "");
+                      }
+                      slides[slideIndex-1].style.display = "block";  
+                      dots[slideIndex-1].className += " active";
+                    }
+                    </script>
+
+                    <h1>About</h1>
+                                    
+              
+        <div class="about">
+          <img src="icon10.png" width=25px> &nbsp&nbsp16km return via same track<br>
+          <br>
+          <img src="icon9.png" width=25px>&nbsp&nbsp Walking and Tramping<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp5-6 hours return to Roy's Peak from  Wānaka area in the Otago<br>
+          <br>
+          <img src="icon8.png" width=25px>&nbsp&nbspSeasonal Restrictions<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspNo fires are allowed.<br><br>In winter you will need to carry and be able to use alpine equipment such as avalanche equipment, ice axe, and crampons. The track may change between very slippery and muddy. No dogs allowed.
+        </div>
+            </main>
+            <aside class="sidebar">
+              Select you currency:    
+            <div class="col-78">
+                <select id="country" name="country">
+                  <option value="australia">NZD $</option>
+                  <option value="canada">USD $</option>
+                  <option value="usa">AUD $</option>
+                  <option value="new zealand">EURO € </option>
+                  <option value="philippines">PHP ₱</option>
+                  <option value="other">INR ₹</option>
+                </select>
+              </div>
+              <div class="price">NZD $250.00</div>
+
+              <div class="details">
+                <ul class="icons">
+                  <li><img src="icon6.png" width=26px>&nbsp&nbsp8 Guests</li><br>
+                  <li><img src="icon1.png" width=26px>&nbsp&nbspDouble King size bed</li><br>
+                  <li><img src="icon5.png" width=26px>&nbsp&nbspAuckland, New Zealand</li><br>
+                  <li><img src="icon4.png" width=26px>&nbsp&nbspLiving room, Bathroom, Bedroom available</li><br>
+                  <li><img src="icon7.png" width=26px>&nbsp&nbspWifi available</li><br>
+                  <li><img src="icon3.png" width=26px>&nbsp&nbspCar park available</li><br>
+                </ul>
+
+                <br>
+                <br>
+                <div class="calendar">
+                <p>Click a date to browse availability</p>
+                <input type="date" id="myDate" value="2024-06-26">
+                </div>
+
+                <p id="demo"></p>
+
+                <script>
+                  function myFunction() {
+                    let x = document.getElementById("myDate").value;
+                    document.getElementById("demo").innerHTML = x;
+                  }
+                  </script>
+
+                <div class="booknow">
+                <button class="booknow">Book now</button>
+                </div>
+
+                <br>
+                <br>
+                <div class="adiv">
+                <div style="text-align:center">
+                  <h2>1000 Reviews</h2>
+                  <span class="adot"></span>
+                  <span class="adot"></span>
+                  <span class="adot"></span>
+                  <span class="adot"></span>
+                  <span class="adot"></span>
+                </div>
+              </div>
+              </div>
+            </aside>
+
+            <div class="footer">
+              <div class="socmeds">
+                <a href="https://www.facebook.com" target="_blank"><img src="socmed1.png" width="4%"></a>
+                <a href="https://www.instagram.com" target="_blank"><img src="socmed2.png" width="4%"></a>
+                <a href="https://www.twitter.com" target="_blank"><img src="socmed3.png" width="4%"></a>
+            </div>
+              <img src="Logo.png" width="200px">
+              <div class="copyright">
+                  <p>&#169; 2024 TRAVEL NZ LLC Copyright</p>
+              </div>
+        </div>
+
+    </body>
+</html>

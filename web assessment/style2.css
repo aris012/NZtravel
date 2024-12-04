@@ -1,0 +1,41 @@
+body { 
+    width: 900px; 
+    margin: 0 auto; 
+    font-family: Arial; 
+    } 
+    header, footer { 
+    background-color: #304000; 
+    color: #fff; 
+    padding: 0.4em; 
+    text-align: center; 
+    } 
+    header a { 
+    color: #fff; 
+    } 
+    nav ul { 
+    background-color: #adbe79; 
+    margin: 0; 
+    padding: 0.3em; 
+    text-align: right; 
+    } 
+    nav li { 
+    margin: 0 1.5em;  
+    display: inline; 
+    list-style: none;   
+    } 
+    li a { 
+    text-decoration: none; 
+    color: #fff; 
+    font-size: 80%; 
+    font-weight: bold; 
+    } 
+    li a:hover { 
+    text-decoration: underline; 
+    } 
+    section { 
+    padding: 1em; 
+    } 
+    footer { 
+    font-size: 75%; 
+    }
+    

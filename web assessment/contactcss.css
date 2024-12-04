@@ -1,0 +1,201 @@
+header {
+    background-color: #ffffff; 
+    color: #000000; 
+    font-weight: bolder;
+    text-align: center; 
+    padding: 5em;
+    }
+    button {
+        background-color: #0a919b; /* Green */
+        border: none;
+        color: white;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        font-weight: bold;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+      button {
+        border-radius: 35px;
+      }
+
+body { 
+    width: 1440px; 
+    margin: 0 auto; 
+    font-family: Arial; 
+    } 
+    nav ul { 
+    background-color: #ffffff; 
+    margin: 20; 
+    padding: 0.5em; 
+    text-align: center; 
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+    } 
+    nav li { 
+    margin: 0 5em;  
+    display: inline; 
+    list-style: none;   
+    } 
+    li a { 
+    text-decoration: none; 
+    color: #002425; 
+    font-size: 150%; 
+    font-weight: bold; 
+    } 
+    li a:hover { 
+    text-decoration: underline; 
+    } 
+    section { 
+    padding: 1em; 
+    } 
+
+    .contactpicture{
+        width: 1440px;
+        height: 258px;
+        background-image: url(contactpicture.jpg);
+    }
+    h1{
+        text-align: center;
+        font-size: 50px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding-top: 40px;
+        padding-left: 250px;
+    }
+    .p1{
+        text-align: left;
+        font-size: x-large;
+        margin-left: 450px;
+        margin-top: none;
+    }
+    .col-78 {
+        width: 189px;
+        position: absolute;
+        padding-top: 150px;
+        padding-left: 40px;
+    }
+    .label{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: auto;
+    }
+    input[type=text], select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ffffff;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+      
+    input[type=submit] {
+        width: 100%;
+        background-color: #0a919b;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: black 2px;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+      input[type=submit]:hover {
+        background-color: #0a919b;
+        width: 100px;
+        position: center;
+      }
+      
+      div {
+        border-radius: 5px;
+        background-color: #ffffff;
+        padding: 20px;
+        border: #000000 2px;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      
+      input[type=text], select, textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        resize: vertical;
+      }
+      
+      label {
+        padding: 12px 12px 12px 0;
+        display: inline-block;
+      }
+      
+      input[type=submit] {
+        background-color: #0a919b;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+        float: center;
+        font-size: 24px;
+        width: 175px;
+        height: 59px;
+        margin-left: 600px;
+      }
+      
+      input[type=submit]:hover {
+        background-color: #0a919b;
+      }
+      
+      .container {
+        border-radius: 20px;
+        background-color: #f2f2f2;
+        padding: 0px;
+      }
+      
+      .col-25 {
+        float: left;
+        width: 25%;
+        margin-top: 0;
+      }
+      
+      .col-75 {
+        float: left;
+        width: 75%;
+        margin-top: 0;
+        border-radius: 10px;
+      }
+      
+      /* Clear floats after the columns */
+      .row::after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      @media screen and (max-width: 600px) {
+        .col-25, .col-75, input[type=submit] {
+          width: 175px;
+          height: 59;
+          margin-top: 6px;
+        }
+      }
+
+      footer { 
+        background-color: transparent;
+        padding: 0.5em;
+        font-size: 100%;
+        text-align: center; 
+        opacity: 60%;
+        }
+
+        .socmeds{
+          display: inline;
+          position: absolute;
+          padding-top: 50px;
+          padding-left: 200px;
+          background-color: transparent;
+        }
+    

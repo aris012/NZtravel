@@ -1,0 +1,329 @@
+header {
+    background-color: #ffffff; 
+    color: #000000; 
+    font-weight: bolder;
+    text-align: center; 
+    padding: 5em;
+    }
+    button {
+        background-color: #0a919b;
+        border: none;
+        color: white;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        font-weight: bold;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+
+
+body { 
+    width: 1440px; 
+    margin: 0 auto; 
+    font-family: Arial; 
+    } 
+    nav ul { 
+    background-color: #ffffff; 
+    margin: 20; 
+    padding: 0.5em; 
+    text-align: center; 
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+    } 
+    nav li { 
+    margin: 0 5em;  
+    display: inline; 
+    list-style: none;   
+    } 
+    li a { 
+    text-decoration: none; 
+    color: #002425; 
+    font-size: 150%; 
+    font-weight: bold; 
+    } 
+    li a:hover { 
+    text-decoration: underline; 
+    } 
+    section { 
+    padding: 1em; 
+    } 
+
+    .container1 {
+      position: relative;
+      width: 700px;
+      margin-left: 330px;
+      padding-bottom: 50px;
+    }
+    .search-bar{
+      position: relative;
+      margin: 10px 20px;
+      width: 100%;
+      height: 50px;
+      padding: 10px 10px 10px 20px;
+      border-radius: 40px;
+      border: black;
+      font-size: 14px;
+      box-shadow: 0px 0px 6px 6px rgb(171, 223, 226);
+      transition: 0.6s all ease-in-out;
+    } 
+    .search-bar:focus-visible{
+      border: #000000;
+      outline: black;
+      box-shadow: 0px 0px 6px 6px rgb(148, 255, 255);
+    }
+
+    .picture {
+    background-image: url(picture1.jpg);
+    border-radius: 100px;
+    width: 1190px;
+    height: 535px;
+    display: flex;
+    justify-content: center;
+    margin-left: 150px;
+    }
+
+    .picture li {
+      margin-top: 10px;
+      color: white;
+      text-shadow: #000000;
+      list-style: none;
+      text-align: center;
+      padding-top: 150px;
+    }
+
+    .picture h1 {
+      font-size: 50px;
+      text-shadow: 2px 2px #242424;
+    }
+
+    .picture p {
+      text-shadow: 2px 2px #242424;
+      font-size: 20px;
+    }
+
+    button {
+      border-radius: 35px;
+    }
+
+    .button-1{
+      background-color: #0a919b; 
+      border: none;
+      color: white;
+      padding: 10px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 20px;
+      font-weight: bold;
+      margin: 4px 2px;
+      cursor: pointer;
+      width: 340px;
+      height: 155px;
+      border-radius: 50px;
+    }
+
+    .button3 {
+      height: 50px;
+      border: 3px solid rgb(68, 68, 68); 
+      margin-left: 450px;
+      top: 50%;
+      left: 50%;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      opacity: 50%;
+      align-self: center;
+    }
+
+    .best {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        font-weight: bolder;
+        color: rgb(5, 109, 109);
+    }
+    .main {
+      grid-area: main;
+      display: grid;
+      grid-template-columns: repeat(4, 2fr);
+      grid-template-rows: repeat(4, 2fr);
+      gap: 20px;
+      padding: 0;
+      background-color: #ffffff;
+  }
+  
+  .content {
+      background-color: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 1.2em;
+      padding: 20px;
+      text-align: center;
+      border-radius: 50px;
+  }
+  .content1 { 
+    background-image: url(content1.jpg);
+    color: white;
+    font-weight: bolder;
+    padding-top: 350px;
+    text-shadow:2px 2px 4px #000000;
+    font-size: 30px;
+    font-family: "Lalezar", system-ui;
+    font-weight: 400;
+    font-style: normal;
+   }
+  .content2 { 
+    background-image: url(content2.jpg);
+    color: white;
+    font-weight: bolder;
+    padding-top: 350px;
+    text-shadow:2px 2px 4px #000000;
+    font-size: 30px;
+    font-family: "Lalezar", system-ui;
+    font-weight: 400;
+    font-style: normal;
+   }
+  .content3 {
+    background-image: url(content3.jpg);
+    color: white;
+    font-weight: bolder;
+    padding-top: 350px;
+    text-shadow:2px 2px 4px #000000;
+    font-size: 30px;
+    font-family: "Lalezar", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .content4 {
+    background-image: url(content4.jpg);
+    color: white;
+    font-weight: bolder;
+    padding-top: 350px;
+    text-shadow:2px 2px 4px #000000;
+    font-size: 30px;
+    font-family: "Lalezar", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .content5 { 
+    background-color: rgb(5, 109, 109);
+    font-size: large;
+    font-weight: bold;
+    color: white;
+  }
+  .content6 {
+        background-color: rgb(5, 109, 109);
+    font-size: large;
+    font-weight: bold;
+    color: white;
+  }
+  .content7 {
+    background-color: rgb(5, 109, 109);
+    font-size: large;
+    font-weight: bold;
+    color: white;
+  }
+  .content8 {
+    background-color: rgb(5, 109, 109);
+    font-size: large;
+    font-weight: bold;
+    color: white;
+  }
+  .content9 {
+    background-image: url(content5.jpg);
+    color: white;
+    font-weight: bolder;
+    padding-top: 350px;
+    text-shadow:2px 2px 4px #000000;
+    font-size: 30px;
+    font-family: "Lalezar", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .content10 {
+    background-image: url(content6.jpg);
+    color: white;
+    font-weight: bolder;
+    padding-top: 350px;
+    text-shadow:2px 2px 4px #000000;
+    font-size: 30px;
+    font-family: "Lalezar", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .content11 {
+    background-image: url(content7.jpg);
+    color: white;
+    font-weight: bolder;
+    padding-top: 350px;
+    text-shadow:2px 2px 4px #000000;
+    font-size: 30px;
+    font-family: "Lalezar", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .content12 {
+    background-image: url(content8.jpg);
+    color: white;
+    font-weight: bolder;
+    padding-top: 350px;
+    text-shadow:2px 2px 4px #000000;
+    font-size: 30px;
+    font-family: "Lalezar", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  /* Responsive Design */
+  @media (min-width: 600px) {
+      .grid-container {
+          grid-template-areas: 
+              "header"
+              "nav"
+              "main"
+              "footer";
+          grid-template-columns: 1fr;
+      }
+  
+      .main {
+          grid-template-columns: 340px 340px 340px 340px;
+          grid-template-rows: 415px 145px;
+      }
+  }  
+
+  .design {
+    background-color: #d1fcff;
+    display: flex;
+    text-decoration: none;
+    margin-top: 50px;
+  }
+  .design li {
+    text-decoration: none;
+    list-style: none;
+    text-align: left;
+    margin-top: 50px;
+  }
+
+  .design h1 {
+    font-size: xx-large;
+    font-weight: 200px;
+  }
+footer { 
+    background-color: white;
+    padding: 0.5em;
+    font-size: 100%;
+    text-align: center; 
+    opacity: 50%;
+    }
+
+.socmeds{
+  display: inline;
+  position: absolute;
+  padding-top: 50px;
+  padding-left: 200px;
+}
+    

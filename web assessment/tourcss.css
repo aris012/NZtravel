@@ -1,0 +1,278 @@
+header {
+    background-color: #ffffff; 
+    color: #000000; 
+    font-weight: bolder;
+    text-align: center; 
+    padding: 2em;
+    }
+    button {
+        background-color: #0a919b;
+        border: none;
+        color: white;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        font-weight: bold;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+      button {
+        border-radius: 35px;
+      }
+
+    .button1{
+      background-color: #0a919b; 
+      color: white;
+      padding: none;
+      display: inline-block;
+      font-size: 20px;
+      margin: 4px 2px;
+      cursor: pointer;
+      width: 50px;
+      height: 50px;
+     border-radius: 20px;
+      }
+
+body { 
+    width: 1440px; 
+    margin: 0 auto; 
+    font-family: Arial; 
+    } 
+    nav ul { 
+    background-color: #ffffff; 
+    margin: 20; 
+    padding: 0.5em; 
+    text-align: center; 
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+    } 
+    nav li { 
+    margin: 0 5em;  
+    display: inline; 
+    list-style: none;   
+    } 
+    li a { 
+    text-decoration: none; 
+    color: #002425; 
+    font-size: 150%; 
+    font-weight: bold; 
+    } 
+    li a:hover { 
+    text-decoration: underline; 
+    } 
+    section { 
+    padding: 1em; 
+    } 
+
+    .grid-container {
+      display: grid;
+      grid-template-areas: 
+          "main sidebar sidebar";
+      grid-template-columns: 790px 1fr; /* 3 columns layout */
+      grid-template-rows: none; /* dynamic rows */
+      height: 100vh;
+      gap: 10px;
+      padding: 20px;
+      box-sizing: border-box;
+      border-radius: 50px;
+  }
+  
+  
+  .main {
+      grid-area: main;
+      background-color: #ffffff;
+      padding: none;
+  }
+  
+  .sidebar {
+      grid-area: sidebar;
+      background-color: #ffffff;
+      padding: 20px;
+  }
+
+    .about{
+      font-family: "Inter", sans-serif;
+      font-size: 24px;
+      font-optical-sizing: auto;
+      font-weight: light;
+      font-style: normal;
+      font-variation-settings: 
+        "slnt" 0;
+        width: 800px;
+        padding-left: 50px;
+    }
+
+.slideshow-container {
+    position: relative;
+     margin: auto;
+}
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -2px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+
+.dot {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .2} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+    h3 {
+        font-family: "Lalezar", system-ui;
+        font-size: 64px;
+        font-weight: bold;
+        color: #0a919b;
+        margin: none;
+        padding: none;
+    }
+    .p1 {
+        font-family: "Inter", sans-serif;
+        font-size: 24px;
+        font-optical-sizing: auto;
+        font-weight: light;
+        font-style: normal;
+        font-variation-settings:
+          "slnt" 0;
+    }
+
+    .tour_picture{
+        border-radius: 20px;
+    }
+    .col-78 {
+      width: 197px;
+      position: absolute;
+      padding-top: none;
+      padding-left: 300px;
+      border-radius: 20px;
+      text-align: right;
+  }
+  .price{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 50px;
+  }
+
+  .details{
+    padding: 20px;
+    margin: 10px;
+  }
+  .icons{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .booknow{
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    width: 200px;
+    height: 70px;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-optical-sizing: auto;
+    font-weight: light;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+    font-size: xx-large;
+    font-weight: bolder;
+  }
+
+  .booknow{
+    margin-top: 100px;
+    margin-left: 70px;
+  }
+
+  .adiv{
+    margin-top: 100px;
+  }
+
+  .calendar{
+    margin-left: 50px;
+    margin-top: 50px;
+    font-size: medium;
+    text-align: center;
+
+  }
+
+  .adot {
+    height: 30px;
+    width: 30px;
+    background-color: #0a919b;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 10px;
+  }
+
+  
+
+  .footer { 
+        background-color: white;
+        padding: 0.5em;
+        font-size: 100%;
+        text-align: center; 
+        opacity: 60%;
+        padding-left: 600px;
+        margin-top: 100px;
+        }
+
+        .socmeds{
+          display: inline;
+          position: absolute;
+          padding-top: 50px;
+          padding-left: 200px;
+          background-color: transparent;
+        }
+        
+    
